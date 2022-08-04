@@ -1,0 +1,297 @@
+{
+  "Call": [
+    "015F",
+    "0FFF",
+    "0000"
+  ],
+  "DisplayClear": [
+    "00E0"
+  ],
+  "CallSubroutine": [
+    "2FFF",
+    "2000",
+    "2345",
+    "2122",
+    "2EDC",
+    "2F00"
+  ],
+  "Return": [
+    "00EE"
+  ],
+  "Jump": [
+    "1FFF",
+    "1000",
+    "1345",
+    "1122",
+    "1EDC",
+    "1F00"
+  ],
+  "SkipRegisterConstEquals": [
+    "3000",
+    "3FFF",
+    "3F58",
+    "3865",
+    "3001",
+    "3562",
+    "3FED"
+  ],
+  "SkipRegisterConstNotEquals": [
+    "4000",
+    "4FFF",
+    "4F58",
+    "4865",
+    "4001",
+    "4562",
+    "4FED"
+  ],
+  "SkipRegistersEquals": [
+    "5000",
+    "5FF0",
+    "5F50",
+    "5860",
+    "5000",
+    "5560",
+    "5FE0"
+  ],
+  "SkipRegistersNotEquals": [
+    "9000",
+    "9FF0",
+    "9F50",
+    "9860",
+    "9000",
+    "9560",
+    "9FE0"
+  ],
+  "SetRegisterConst": [
+    "6123",
+    "6001",
+    "6FA2",
+    "6E09",
+    "6000",
+    "6FFF"
+  ],
+  "AddRegisterConst": [
+    "7123",
+    "7001",
+    "7FA2",
+    "7E09",
+    "7000",
+    "7FFF"
+  ],
+  "AssignRegister": [
+    "8000",
+    "8010",
+    "8100",
+    "8230",
+    "8FF0",
+    "8FE0",
+    "80F0"
+  ],
+  "RegistersOr": [
+    "8001",
+    "8011",
+    "8101",
+    "8231",
+    "8FF1",
+    "8FE1",
+    "80F1"
+  ],
+  "RegistersAnd": [
+    "8002",
+    "8012",
+    "8102",
+    "8232",
+    "8FF2",
+    "8FE2",
+    "80F2"
+  ],
+  "RegistersXOR": [
+    "8003",
+    "8013",
+    "8103",
+    "8233",
+    "8FF3",
+    "8FE3",
+    "80F3"
+  ],
+  "RegistersAdd": [
+    "8004",
+    "8014",
+    "8104",
+    "8234",
+    "8FF4",
+    "8FE4",
+    "80F4"
+  ],
+  "RegistersMinus1": [
+    "8005",
+    "8015",
+    "8105",
+    "8235",
+    "8FF5",
+    "8FE5",
+    "80F5"
+  ],
+  "RegisterShiftRight": [
+    "8006",
+    "8016",
+    "8106",
+    "8236",
+    "8FF6",
+    "8FE6",
+    "80F6"
+  ],
+  "RegistersMinus2": [
+    "8007",
+    "8017",
+    "8107",
+    "8237",
+    "8FF7",
+    "8FE7",
+    "80F7"
+  ],
+  "RegisterShiftLeft": [
+    "800E",
+    "801E",
+    "810E",
+    "823E",
+    "8FFE",
+    "8FEE",
+    "80FE"
+  ],
+  "SetAddressToI": [
+    "A00E",
+    "A01E",
+    "A10E",
+    "A23E",
+    "AFFE",
+    "AFEE",
+    "A0FE"
+  ],
+  "JumpV0": [
+    "B00E",
+    "B01E",
+    "B10E",
+    "B23E",
+    "BFFE",
+    "BFEE",
+    "B0FE"
+  ],
+  "ConstAndRandToRegister": [
+    "C00E",
+    "C01E",
+    "C10E",
+    "C23E",
+    "CFFE",
+    "CFEE",
+    "C0FE"
+  ],
+  "Draw": [
+    "D00E",
+    "D01E",
+    "D10E",
+    "D23E",
+    "DFFE",
+    "DFEE",
+    "D0FE"
+  ],
+  "SkipIfPressed": [
+    "E09E",
+    "E19E",
+    "E29E",
+    "E39E",
+    "E49E",
+    "E59E",
+    "EE9E"
+  ],
+  "SkipIfNotPressed": [
+    "E0A1",
+    "E1A1",
+    "E2A1",
+    "E3A1",
+    "E4A1",
+    "E5A1",
+    "EEA1"
+  ],
+  "SetRegisterDelayTimer": [
+    "F007",
+    "F107",
+    "F207",
+    "F307",
+    "F407",
+    "F507",
+    "FE07"
+  ],
+  "SetRegisterNextKey": [
+    "F00A",
+    "F10A",
+    "F20A",
+    "F30A",
+    "F40A",
+    "F50A",
+    "FE0A"
+  ],
+  "SetDelayTimer": [
+    "F015",
+    "F115",
+    "F215",
+    "F315",
+    "F415",
+    "F515",
+    "FE15"
+  ],
+  "SetSoundTimer": [
+    "F018",
+    "F118",
+    "F218",
+    "F318",
+    "F418",
+    "F518",
+    "FE18"
+  ],
+  "AddIRegister": [
+    "F01E",
+    "F11E",
+    "F21E",
+    "F31E",
+    "F41E",
+    "F51E",
+    "FE1E"
+  ],
+  "SetFontSprite": [
+    "F029",
+    "F129",
+    "F229",
+    "F329",
+    "F429",
+    "F529",
+    "FE29"
+  ],
+  "BcdConversion": [
+    "F033",
+    "F133",
+    "F233",
+    "F333",
+    "F433",
+    "F533",
+    "FE33"
+  ],
+  "RegistersDump": [
+    "F055",
+    "F155",
+    "F255",
+    "F355",
+    "F455",
+    "F555",
+    "FE55"
+  ],
+  "RegistersLoad": [
+    "F065",
+    "F165",
+    "F265",
+    "F365",
+    "F465",
+    "F565",
+    "FE65"
+  ]
+}

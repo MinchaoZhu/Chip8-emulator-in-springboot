@@ -1,0 +1,7 @@
+rootProject.name = 'chip8'
+include ':chip8-core'
+include ':chip8-client'
+include ':chip8-common'
+include ':chip8-app'
+include ':chip8-logic'
+
